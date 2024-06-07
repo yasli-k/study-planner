@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Study Planner</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <h1>Study Planner</h1>
     <div class="grid">
-      <div id="daily-schedule-left">
-        <h3>Daily Schedule</h3>
-        <ul id="times-list"></ul>
+      <h3>Daily Schedule</h3>
+      <div class="daily">
+          <div class="Monday">Mon</div>
+          <div class="Tuesday">Tues</div>
+          <div class="Wednesday">Wed</div>
+          <div class="Thursday">Thurs</div>
+          <div class="Friday">Fri</div>
+          <div class="Saturday">Sat</div>
+          <div class="Sunday">Sun</div>
       </div>
       <div id="priorities-right">
         <h3>Top 3 Priorities</h3>
@@ -24,11 +31,23 @@
       </div>
     </div>
 
+    
     <small>Add new task to daily schedule</small>
     </br>
     <input id="add-daily-input"
     placeholder="I need to...">
     <button id="add-daily-button">Add Task</button>
+    
+    </br>
+    <label for="button-select">Add item to:</label>
+    <select name='button-select' id='task-select'>
+      <option>Daily Schedule</option>
+      <option>Top 3 Priorities</option>
+      <option>To Do</option>
+    </select>
+    
+    </br>
+    <button id="clear-tasks">Clear Tasks</button>
 
   </body>
 </html>
