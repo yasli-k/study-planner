@@ -7,40 +7,74 @@ body {
   display: grid;
   border: 5px solid black;
   grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
-  grid-template-rows: 200px;
+  grid-template-rows: 250px;
+  text-align: center;
 }
 
 .Monday {
+  padding: 5px;
   grid-column: 1 / 2;
-  border: 2px dotted black;
 }
 
 .Tuesday {
+  padding: 5px;
   grid-column: 2 / 3;
-  border: 2px dotted black;
+  border-left: 2px dotted black;
 }
 
 .Wednesday {
+  padding: 5px;
   grid-column: 3 / 4;
-  border: 2px dotted black;
+  border-left: 2px dotted black;
 }
 
 .Thursday { 
+  padding: 5px;
   grid-column: 4 / 5;
-  border: 2px dotted black;
+  border-left: 2px dotted black;
 }
 
 .Friday {
+  padding: 5px;
   grid-column: 5 / 6;
-  border: 2px dotted black;
+  border-left: 2px dotted black;
 }
 
 .Saturday {
+  padding: 5px;
   grid-column: 6 / 7;
-  border: 2px dotted black;
+  border-left: 2px dotted black;
 }
 
 .Sunday {
+  padding: 5px;
   grid-column: 7 / 8;
-  border: 2px dotted black;
+  border-left: 2px dotted black;
+}
+
+.to-do-grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px;
+}
+
+.priorities-left {
+  grid-column: 1 / 2;
+  border: 5px dotted grey;
+  margin-right: 20px;
+}
+
+.to-do-right {
+  grid-column: 2 / 3;
+  border: 5px dotted grey;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
