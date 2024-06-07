@@ -83,4 +83,16 @@ h3 {
   text-align: center;
 }
 
+#button-padding {
+  text-align: center;
+}
+
+#selector-padding {
+  padding: 3px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
 
